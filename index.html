@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Suscripcion a TuCupon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/micss.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+
+<section class="navbar">
+  <img class="marca" src="img/logo-blanco.png" alt="logo-tucupon">
+  </section>
+
+  <section class="principal">
+    <div class="contenedor-texto-mobile">
+      <h4 class="negrita"> Recibí descuentos</h4>
+      <h5 class="hasta">hasta</h5>
+      <h2 class="numero">-90%</h2>
+      <h4 class="estirado">todas las semanas!</h4>
+    </div>
+
+
+
+    <form class="formulario-web" id="formulario-web">
+        <h4 class="negrita"> Recibí descuentos</h4>
+        <h5 class="hasta">hasta</h5>
+        <h2 class="numero">-90%</h2>
+        <h4 class="estirado">todas las semanas!</h4>
+        <input type="text"  id="ingresa-nombre" name="nombre" class="validate" required
+        autofocus placeholder="Tu nombre">
+        <select class="input-select-ciudad" class="validate" required>
+          <option value="" disabled selected> Tu ciudad </option>
+          <option value="buenos-aires" > Buenos Aires</option>
+            <option value="la-plata" > La Plata </option>
+              <option value="neuquen" > Neuquén</option>
+                <option value="rosario" > Rosario</option>
+        <input type="text"  id="ingresa-mail" name="mail" class="validate" required
+        autofocus placeholder="Tu e-mail">
+        <input type="checkbox"  id="acepto" name="acepto" class="validate" required> <label for="check" class="acepto">Acepto las Políticas de privacidad</label><br>
+        <input class="boton" type="submit" id="boton-sub" value="Quiero mi descuento!">
+      </FORM>
+
+
+  </section>
+  <section formulario>
+<form class="formulario-mobile" id="formulario-mobile">
+  <input type="text"  id="ingresa-nombre-m" name="nombre" class="validate" required
+  autofocus placeholder="Tu nombre">
+  <select class="input-select-ciudad" class="validate" required>
+    <option value="" disabled selected> Tu ciudad </option>
+    <option value="buenos-aires" > Buenos Aires</option>
+      <option value="la-plata" > La Plata </option>
+        <option value="neuquen" > Neuquén</option>
+          <option value="rosario" > Rosario</option>
+  <input type="text"  id="ingresa-mail" name="mail" class="validate" required
+  autofocus placeholder="Tu e-mail">
+  <input type="checkbox" class="checkbox" id="acepto" name="acepto" class="validate" required> <label for="vehicle1">Acepto las Políticas de privacidad</label><br>
+  <input type="submit" class="boton"  id="boton-sub" value="Quiero mi descuento!">
+</form>
+  </section>
+
+
+<!------------------------------------------------------------------>
+<section beneficios>
+  <div class="informacion">
+
+<div class="col">
+<img class="icono" src="img/descuento.png" alt="">
+<h3>Descuentos reales</h3>
+<p>Conseguí descuentos entre 90% y 40%, sin letra chica, en todos los productos y servicios</p>
+</div>
+
+<div class="col">
+<img class="icono" src="img/envio.png" alt="">
+<h3>Envío gratis</h3>
+<p>Recibí tus compras donde quieras comprando en más de 5.000 comercios adheridos al servicio Puerta a Puerta</p>
+</div>
+
+<div class="col">
+<img class="icono" src="img/reembolso.png" alt="">
+<h3>Devolución express</h3>
+<p>Si no recibis lo que esperabas podés devolverlo dentro de las primeras 48 hs y te reembolsamos el dinero sin vueltas</p>
+</div>
+  </div>
+</section>
+
+<!------------------------------------------------------------------>
+
+  <div class="ty">
+    <div class="caja-ty">
+    <img class="icono" src="img/check.png" alt="">
+    <h1 class="gracias">Gracias!</h1>
+    <p>Hola <span id="nombre"></span>, ya podés empezar a disfrutar los mejores descuentos todas las semanas! </p>
+    <img class="icono" src="img/bag.png" alt="">
+    <input class="boton-seguir" type="button" name="ver-mas" value="Mirá los descuentos de hoy!">
+  </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="js/mijs.js"> </script>
+</body>
+</html>
